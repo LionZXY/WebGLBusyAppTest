@@ -21,4 +21,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "WebGLBusyAppTest"
 include(":app")
- 
+include(":benchmark")

@@ -28,7 +28,7 @@ class NativeWebGLFragment: Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        binding.rootView.addView(getGlSurfaceView(view.context))
+        binding.rootWebglView.addView(getGlSurfaceView(view.context))
     }
 
     override fun onDestroyView() {
